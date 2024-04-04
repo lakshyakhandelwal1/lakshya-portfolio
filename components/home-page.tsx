@@ -5,6 +5,7 @@ import Skilltag from "./ui/skill-tag"
 import data, { about_me, education, project_detail } from "@/content/data"
 import Icon from "./ui/icon"
 import ProjectCard from "./card"
+import MyPhoto from "./img/me.jpg"
 
 export function HomePage() {
   return (
@@ -16,7 +17,7 @@ export function HomePage() {
             alt="Your Photo"
             className="rounded-full my-6"
             height={600}
-            src="/assets/me.jpg"
+            src={MyPhoto}
             style={{
               aspectRatio: "200/200",
               objectFit: "cover",
