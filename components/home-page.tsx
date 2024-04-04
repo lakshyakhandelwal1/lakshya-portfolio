@@ -29,11 +29,11 @@ export function HomePage() {
         <section className="2xl:container mx-auto">
             <div className="mx-auto">
               <div className="max-w-xs py-3 px-8 rounded-lg shadow-lg border flex bg-gray-100 mx-auto justify-around">
-                <Icon iconName="github" href=""/>
-                <Icon iconName="twitter" href=""/>
-                <Icon iconName="gmail" href=""/>
-                <Icon iconName="instagram" href=""/>
-                <Icon iconName="linkedin" href=""/>
+                <Icon iconName="github" href="https://github.com/lakshyakhandelwal1"/>
+                <Icon iconName="twitter" href="https://twitter.com/Lakshya_k0107"/>
+                <Icon iconName="gmail" href="mailto:khandelwallakshya74@gmail.com"/>
+                <Icon iconName="instagram" href="https://www.instagram.com/lakshya_k0107"/>
+                <Icon iconName="linkedin" href="https://www.linkedin.com/in/lakshya-khandelwal-4b2940259"/>
               </div>
             </div>
         </section>

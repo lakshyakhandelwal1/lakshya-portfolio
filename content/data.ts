@@ -17,14 +17,14 @@ export const skills = [
 
 export const project_detail = [
   {
-    name: "",
-    description: "",
-    link: "",
+    name: "Collaborative WhiteBoard",
+    description: "Made a Collaborative Whiteboard where users join a room and share their drawings and messages in realtime to everyone in the same room ensuring the data is not accessible from outside the room. ",
+    link: "https://collaborative-whiteboard-frontend.vercel.app",
   },
   {
-    name: "",
-    description: "",
-    link: "",
+    name: "M25 Canteen",
+    description: "Developed a full stack canteen web application where users can place orders and then admin will assign a delivery partner for that order.Delivery Partner can accept to deliver the order and he can also keep the user updated about the postion of the user order.Admin can also add and delete items",
+    link: "https://github.com/lakshyakhandelwal1/M25-CANTEEN",
   },
 ];
 
