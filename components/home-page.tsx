@@ -28,11 +28,11 @@ export function HomePage() {
         <section className="2xl:container mx-auto">
             <div className="mx-auto">
               <div className="max-w-xs py-3 px-8 rounded-lg shadow-lg border flex bg-gray-100 mx-auto justify-around">
-                <Icon iconName="github"/>
-                <Icon iconName="twitter"/>
-                <Icon iconName="gmail"/>
-                <Icon iconName="instagram"/>
-                <Icon iconName="linkedin"/>
+                <Icon iconName="github" href=""/>
+                <Icon iconName="twitter" href=""/>
+                <Icon iconName="gmail" href=""/>
+                <Icon iconName="instagram" href=""/>
+                <Icon iconName="linkedin" href=""/>
               </div>
             </div>
         </section>
@@ -58,9 +58,9 @@ export function HomePage() {
         <section className="space-y-4" id="contact">
           <h2 className="text-2xl font-bold">Contact</h2>
           <p className="max-w-prose">{"Email: " + data.contact.email}</p>
-          <Button className="w-full sm:w-auto text-black dark:text-slate-50 border dark:border-none" variant="resume">
+          {/* <Button className="w-full sm:w-auto text-black dark:text-slate-50 border dark:border-none" variant="resume">
             Download Resume
-          </Button>
+          </Button> */}
         </section>
       </main>
       <footer className="flex items-center justify-center py-4 border-t">
