@@ -52,7 +52,7 @@ export function HomePage() {
         <section className="space-y-4" id="projects">
           <h2 className="text-2xl font-bold">Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {project_detail.map((project_info) => <ProjectCard {...project_info}/>)}
+            {project_detail.map((project_info, index) => <ProjectCard key={index} {...project_info}/>)}
           </div>
         </section>
         <section className="space-y-4" id="contact">
